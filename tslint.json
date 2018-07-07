@@ -12,6 +12,7 @@
 		],
 		"no-any": false,
 		"object-literal-sort-keys": false,
-		"no-console": false
+		"no-console": false,
+		"semicolon": [true, "always"]
 	}
 }

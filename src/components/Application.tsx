@@ -7,13 +7,12 @@ class Application extends React.Component {
 
 	public render() {
 		return (
-			<div>
-				<div>
-					<h3>Application</h3>
-						Application page
-				</div>
-			</div>
-		)
+			<main>
+				<div>Location:</div>
+				<div>Desired Job Title:</div>
+				<div>Preferred Industry:</div>
+			</main>
+		);
 	}
 }
 

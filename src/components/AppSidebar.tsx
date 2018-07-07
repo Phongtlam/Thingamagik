@@ -24,11 +24,11 @@ class AppSidebar extends React.Component {
 			route: 'setting',
 			callback: () => { console.log('overview'); }
 		}
-	]
+	];
 
 	constructor(props) {
 		super(props);
-		this.state = {}
+		this.state = {};
 	}
 
 	public render() {
@@ -44,12 +44,12 @@ class AppSidebar extends React.Component {
 									to={`/${nav.route}`}
 									activeClassName="active"
 								>{nav.name}</NavLink>
-							)
+							);
 						})
 					}
 				</div>
 			</div>
-		)
+		);
 	}
 }
 

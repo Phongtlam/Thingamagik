@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Switch, Route } from 'react-router-dom'
+import { Switch, Route } from 'react-router-dom';
 import OverView from './OverView';
 import Application from './Application';
 import Targetting from './Targetting';
@@ -14,6 +14,6 @@ const Main = () => (
       <Route path='/setting' component={Setting}/>
     </Switch>
   </main>
-)
+);
 
 export default Main;

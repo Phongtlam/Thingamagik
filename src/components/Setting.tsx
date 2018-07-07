@@ -13,7 +13,7 @@ class Setting extends React.Component {
 						Setting page
 				</div>
 			</div>
-		)
+		);
 	}
 }
 

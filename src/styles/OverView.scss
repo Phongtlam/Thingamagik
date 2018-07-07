@@ -1,0 +1,8 @@
+.overview-container {
+	display: flex;
+	flex-direction: row;
+
+	.overview-item {
+		flex: 1;
+	}
+}

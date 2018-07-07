@@ -10,10 +10,10 @@ class Targetting extends React.Component {
 			<div>
 				<div>
 					<h3>Targetting</h3>
-						Targetting page
+						Targetting page!
 				</div>
 			</div>
-		)
+		);
 	}
 }
 
